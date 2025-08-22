@@ -1,7 +1,4 @@
-
-
-
-**🧩 Sliding Saga – Educational Puzzle Game**
+🧩 Sliding Saga – Educational Puzzle Game
 
 Sliding Saga is an interactive sliding puzzle game built using Java, JSP, Servlets, and HTML/CSS.
 Players can choose puzzles from different categories like famous leaders, world places, cartoons, and more. Once the puzzle is solved, it reveals interesting knowledge, quotes, or fun facts related to the picture – making learning fun and engaging.
@@ -115,5 +112,6 @@ Add new puzzle categories
 Enhance puzzle logic
 
 Improve UI/UX with modern styling
+
 
 
