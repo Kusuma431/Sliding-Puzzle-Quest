@@ -1,10 +1,11 @@
 
 
 
-#🧩 Sliding Saga – Educational Puzzle Game
+**🧩 Sliding Saga – Educational Puzzle Game**
 
 Sliding Saga is an interactive sliding puzzle game built using Java, JSP, Servlets, and HTML/CSS.
 Players can choose puzzles from different categories like famous leaders, world places, cartoons, and more. Once the puzzle is solved, it reveals interesting knowledge, quotes, or fun facts related to the picture – making learning fun and engaging.
+
 
 ✨ Features
 
@@ -20,6 +21,7 @@ Players can choose puzzles from different categories like famous leaders, world 
 
 🚀 Educational + Fun – A blend of gaming and learning
 
+
 🛠️ Tech Stack
 
 Java (Servlets, JSP) – Backend logic & authentication
@@ -30,7 +32,9 @@ JDBC + DAO Pattern – Database connectivity & queries
 
 MySQL / Any RDBMS – User and puzzle data storage
 
+
 📂 Project Structure
+
 Sliding-Saga/
 │── DBConnection.java      # Handles database connection
 │── DBInfo.java            # Database configuration
@@ -49,6 +53,7 @@ Sliding-Saga/
 │── README.md              # Project documentation
 
 ⚡ Getting Started
+
 1️⃣ Clone the Repository
 git clone https://github.com/Kusuma431/Sliding-Saga.git
 cd Sliding-Saga
@@ -86,6 +91,7 @@ Solve the sliding puzzle by rearranging tiles.
 
 Replay with a new puzzle or switch category.
 
+
 🚀 Future Enhancements
 
 🧠 Add difficulty levels (3x3, 4x4, 5x5 grids)
@@ -98,6 +104,8 @@ Replay with a new puzzle or switch category.
 
 🔀 Daily new puzzle challenges
 
+
+
 🤝 Contributing
 
 Contributions are welcome! You can:
@@ -107,4 +115,5 @@ Add new puzzle categories
 Enhance puzzle logic
 
 Improve UI/UX with modern styling
+
 
