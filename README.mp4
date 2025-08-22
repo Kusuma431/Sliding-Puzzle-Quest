@@ -1,5 +1,110 @@
 
 
+
+#🧩 Sliding Saga – Educational Puzzle Game
+
+Sliding Saga is an interactive sliding puzzle game built using Java, JSP, Servlets, and HTML/CSS.
+Players can choose puzzles from different categories like famous leaders, world places, cartoons, and more. Once the puzzle is solved, it reveals interesting knowledge, quotes, or fun facts related to the picture – making learning fun and engaging.
+
+✨ Features
+
+🖼️ Sliding Puzzle Gameplay – Rearrange tiles to solve images
+
+🌍 Multiple Categories – Leaders, Places, Cartoons, Marvels & more
+
+🎓 Knowledge Unlock – Get facts, quotes, or answers once the puzzle is completed
+
+🔑 User Authentication – Secure login & registration system
+
+📊 Interactive UI – JSP pages with smooth integration of puzzles and knowledge content
+
+🚀 Educational + Fun – A blend of gaming and learning
+
+🛠️ Tech Stack
+
+Java (Servlets, JSP) – Backend logic & authentication
+
+HTML5 / CSS3 – Frontend design and responsive layout
+
+JDBC + DAO Pattern – Database connectivity & queries
+
+MySQL / Any RDBMS – User and puzzle data storage
+
+📂 Project Structure
+Sliding-Saga/
+│── DBConnection.java      # Handles database connection
+│── DBInfo.java            # Database configuration
+│── LoginDAO.java          # Data Access Object for login
+│── RegisterDAO.java       # DAO for registration
+│── LoginServlet.java      # Handles login requests
+│── RegisterServlet.java   # Handles user registration
+│── LogoutServlet.java     # Handles logout
+│── UserBean.java          # Java Bean for user data
+│── LoginSuccess.jsp       # Puzzle dashboard after login
+│── RegSuccess.jsp         # Registration success page
+│── Msg.jsp                # Display messages
+│── index.html             # Landing page
+│── main.html              # Puzzle play area
+│── bg/                    # Background images or assets
+│── README.md              # Project documentation
+
+⚡ Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/Kusuma431/Sliding-Saga.git
+cd Sliding-Saga
+
+2️⃣ Setup Database
+
+Create a database in MySQL (or your preferred RDBMS).
+
+Update DBInfo.java with your database credentials.
+
+Import the provided SQL schema (if available).
+
+3️⃣ Run on Server
+
+Open the project in Eclipse/IntelliJ.
+
+Configure with Apache Tomcat.
+
+Deploy and run the application.
+
+🎮 How to Play
+
+Login / Register to access puzzles.
+
+Choose a category (Places, Leaders, Cartoons, Marvels, etc.).
+
 https://github.com/user-attachments/assets/5ebadd2b-5029-495d-8ed7-36623cfff335
 
 # Sliding-Saga
+
+
+Solve the sliding puzzle by rearranging tiles.
+
+✅ Once solved, the game displays knowledge, facts, or quotes about the image.
+
+Replay with a new puzzle or switch category.
+
+🚀 Future Enhancements
+
+🧠 Add difficulty levels (3x3, 4x4, 5x5 grids)
+
+🎵 Sound effects & animations during play
+
+🏆 Leaderboard for fastest puzzle solvers
+
+📱 Make fully responsive for mobile devices
+
+🔀 Daily new puzzle challenges
+
+🤝 Contributing
+
+Contributions are welcome! You can:
+
+Add new puzzle categories
+
+Enhance puzzle logic
+
+Improve UI/UX with modern styling
+
